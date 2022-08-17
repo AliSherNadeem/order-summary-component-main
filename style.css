@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    max-width: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+img{
+    max-width: 320px;
+    
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    gap: 30px;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h2{
+    color:hsl(223, 47%, 23%);
+}
+.info>p{
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+
+}
+.annual-plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 98%);
+    font-size: 14px;
+   
+}
+.annual-plan>li{
+    list-style: none;
+}
+.icon{
+    
+    height: 32px;
+    width: 32px;
+}
+.price{
+    color:  hsl(224, 23%, 55%);;
+}
+.annual-plan>li>span{
+    color:hsl(223, 47%, 23%) ;
+    font-weight: 700;
+}
+ul>span{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.btn>p{
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
